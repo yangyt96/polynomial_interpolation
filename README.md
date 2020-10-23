@@ -1,4 +1,4 @@
-# Interpolation with Taylor Series Approximation function from random scattering values (taylorseries)
+# Polynomial-Interpolation with Taylor Series Approximate function from random scattering values (taylorseries)
 
 **taylorseries** is a small package that computes the Taylor Series function from random scattering values. Normally, it is hard to achieve a function that fits to all the points on a xy-diagramm. This method helps us to figure out the function.
 
@@ -76,7 +76,7 @@ y_src
 
 
 
-    array([124.18512554,  80.03638445,  93.95848787,  93.68825581])
+    array([112.69596425,  85.95851041,  96.29335033,  95.65531046])
 
 
 
@@ -90,7 +90,7 @@ plt.plot(x_src, y_src, 'bo')
 
 
 
-    [<matplotlib.lines.Line2D at 0x7fb62a9bbaf0>]
+    [<matplotlib.lines.Line2D at 0x7f44a5830af0>]
 
 
 
@@ -152,7 +152,7 @@ consts
 
 
 
-    array([ 2.98667891e+02, -2.63737504e+04,  1.01298602e+06, -1.20438633e+07])
+    array([ 2.24550885e+02, -1.70428713e+04,  6.65813204e+05, -8.00752893e+06])
 
 
 
@@ -167,7 +167,7 @@ y_test
 
 
 
-    array([124.18512554,  80.03638445,  93.95848787,  93.68825581])
+    array([112.69596425,  85.95851041,  96.29335033,  95.65531046])
 
 
 
@@ -181,7 +181,7 @@ y_test - y_src
 
 
 
-    array([-1.70530257e-13,  0.00000000e+00,  1.70530257e-13,  0.00000000e+00])
+    array([1.42108547e-14, 2.55795385e-13, 3.97903932e-13, 6.53699317e-13])
 
 
 
@@ -212,14 +212,14 @@ y_interpolate
 
 
 
-    array([124.18512554, 115.0975628 , 107.24107712, 100.54340533,
-            94.93228424,  90.33545068,  86.68064147,  83.89559341,
-            81.90804335,  80.64572809,  80.03638445,  80.00774926,
-            80.48755933,  81.40355149,  82.68346256,  84.25502935,
-            86.04598868,  87.98407738,  89.99703226,  92.01259015,
-            93.95848787,  95.76246223,  97.35225005,  98.65558817,
-            99.60021338, 100.11386252, 100.12427241,  99.55917986,
-            98.3463217 ,  96.41343474])
+    array([112.69596425, 106.9846782 , 102.07652165,  97.92344942,
+            94.47741635,  91.69037726,  89.51428697,  87.90110032,
+            86.80277212,  86.17125721,  85.95851041,  86.11648654,
+            86.59714044,  87.35242694,  88.33430084,  89.494717  ,
+            90.78563022,  92.15899534,  93.56676718,  94.96090057,
+            96.29335033,  97.5160713 ,  98.5810183 ,  99.44014615,
+           100.04540968, 100.34876372, 100.30216309,  99.85756263,
+            98.96691715,  97.58218149])
 
 
 
@@ -232,7 +232,7 @@ plt.plot(x_src, y_src, 'bo')
 
 
 
-    [<matplotlib.lines.Line2D at 0x7fb62ccb0460>]
+    [<matplotlib.lines.Line2D at 0x7f44a7897160>]
 
 
 

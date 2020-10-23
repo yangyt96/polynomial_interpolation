@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.abspath('../../taylorseries'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'Interpolation with Taylor Series from random scattering values'
+project = 'Polynomial-Interpolation with Taylor Series Approximate function from random scattering values'
 copyright = '2020, Yee Yang Tan'
 author = 'Yee Yang Tan'
 
