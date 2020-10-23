@@ -1,3 +1,6 @@
+#!python3
+# -*- coding: utf-8 -*-
+
 # -- Path setup --------------------------------------------------------------
 import os
 import sys
